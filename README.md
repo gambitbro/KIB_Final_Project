@@ -1,4 +1,6 @@
-# KIB_Final_Project [SSR Smart Farm]
+# [SSR Smart Farm]
+
+## 홍민이 : **"우린 미래를 경작한다."**
 
 - 고려대학교 HRD IoT 개발자과정 파이널 프로젝트입니다.
 
