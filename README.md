@@ -30,7 +30,7 @@
         <th>프로젝트 개요</th>
         <th>하드웨어 자동화 <br> 웹 사이트 </th>
         <th>개발환경&nbsp;</th>
-        <th>Linux,<br> Windows </th>
+        <th>Arduino IDE,<br> VScode,<br> Linux </th>
     </tr>
     <tr>
         <th>사용 센서</th>
