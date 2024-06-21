@@ -64,9 +64,7 @@
 <br>
 
 📑 **Role & Member**
-<br>
-<br>
-
+<br/>
 <table>
     <tr>
         <th width="16%">업무 / 구성원</th>
