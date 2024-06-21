@@ -8,18 +8,27 @@ DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
     Serial.begin(9600);     //9600으로 설정
+    Serial1.begin(9600);    // 블루투스 모듈 연결 설정
+
     dht.begin();
 }
 
 void loop() {
-    float h = dht.readHumidity();
-    float t = dht.readTemperature();
-    Serial.print("Humidity: ");
-    Serial.print(h);
-    Serial.print(" %\t");
-    Serial.print("Temperature: ");
-    Serial.print(t);
-    Serial.println(" *C ");
+    float humid = dht.readHumidity();
+    float temp = dht.readTemperature();
+
+    if (isnan(humid) || isnan(temp)) {
+        Serial1.println("Failed to read from DHT sensor!");
+        return;
+    }
+    
+    
+    Serial1.print("Humidity: ");
+    Serial1.print(humid);
+    Serial1.print(" %\t");
+    Serial1.print("Temperature: ");
+    Serial1.print(temp);
+    Serial1.println(" *C ");
 
     delay(2000);    // 2초대기
 }
