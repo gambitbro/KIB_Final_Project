@@ -7,16 +7,58 @@
   - https://www.canva.com/design/DAGIo3UenlM/_KW2WdmP_S_bjc8OKEcd7A/view?utm_content=DAGIo3UenlM&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 👋 Introduction
-
-- |프로젝트 명|가정용 스마트 팜|개발기간|24.06.20. - 24.07.09.|
-  |:---:|:---:|:---:|:-----:|
-  |프로젝트 성격|Final project|개발인원|팀 3명<br>(홍솔아｜민병근｜이진우)|
-  |프로젝트 개요|하드웨어 자동화 웹 사이트	|개발환경 |Linux, Windows|
-  |사용 센서|온 습도 센서, 토양습도 센서, 물 수위 센서|사용 하드웨어|Arduino, RaspberryPI, Jetson Nano|
-  |개발 언어|C/C++, Python|사용 기술|(데이터베이스) SQLite,<br>(Web) Flask <br> (온습도 측정) Adafruit_DHT<br>(GPIO 동작) RPi.GPIO<br>(물 수위 센서, 토양 수분 센서) spidev<br>(쓰레드) threading|
-
 <br/>
-
+<table>
+    <tr>
+        <th>프로젝트 명 </th>
+        <th>가정용 스마트 팜</th>
+        <th>개발기간</th>
+        <th>24.06.20. - 24.07.09.</th>
+    </tr>
+    <tr>
+        <th>프로젝트 성격</th>
+        <th>Final project</th>
+        <th>개발인원</th>
+        <th>　　　　 팀 / 3명<br>
+          (<a href="https://github.com/hongsola92">홍솔아</a>｜
+          <a href="https://github.com/gambitbro">민병근</a> |
+          <a href="https://github.com/MrTwee">이진우</a>)
+      </th>
+    </tr>
+      <tr>
+        <th>프로젝트 개요</th>
+        <th>하드웨어 자동화 <br> 웹 사이트 </th>
+        <th>개발환경&nbsp;</th>
+        <th>Linux,<br> Windows </th>
+    </tr>
+    <tr>
+        <th>사용 센서</th>
+        <th colspan="3">온 습도 센서, 토양습도 센서, 물 수위 센서 </th>
+    </tr>
+    <tr>
+        <th>사용 하드웨어</th>
+        <th colspan="3">Arduino, RaspberryPI, Jetson Nano
+        </th>
+    </tr>    
+    <tr>
+        <th>개발언어</th>
+        <th colspan="3">C/C++, Python</th>
+    </tr>
+    <tr>
+        <th>사용기술</th>
+        <th colspan="3">
+            <br> (데이터베이스) SQLite,  
+            <br> (Web) Flask
+            <br> (온습도 측정) Adafruit_DHT
+            <br> (GPIO 동작) RPi.GPIO
+            <br> (물 수위 센서, 토양 수분 센서) spidev
+            <br> (쓰레드) threading
+        </th>
+    </tr>
+</table>
+<br>
+<br>
+<br>
 📑 Role & Member
 
 <table>
