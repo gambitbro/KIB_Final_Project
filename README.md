@@ -29,7 +29,7 @@
     </tr>
       <tr>
         <th>프로젝트 개요</th>
-        <th>하드웨어 자동화 <br> 웹 사이트 </th>
+        <th>가정용 스마트팜 만들기 </th>
         <th>개발환경&nbsp;</th>
         <th>Arduino IDE,<br> VScode,<br> Linux </th>
     </tr>
