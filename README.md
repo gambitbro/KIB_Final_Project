@@ -48,12 +48,11 @@
     <tr>
         <th>사용기술</th>
         <th colspan="3">
-            <br> (데이터베이스) SQLite,  
+            <br> (데이터베이스) SQLite or Google CLoud Database
             <br> (Web) Flask
             <br> (온습도 측정) Adafruit_DHT
             <br> (GPIO 동작) RPi.GPIO
             <br> (물 수위 센서, 토양 수분 센서) spidev
-            <br> (쓰레드) threading
             <br>
             <br>
         </th>
