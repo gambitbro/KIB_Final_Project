@@ -19,7 +19,7 @@
         <th>프로젝트 성격</th>
         <th>Final project</th>
         <th>개발인원</th>
-        <th>　　　　 팀 / 3명<br>
+        <th>팀 / 3명<br>
           (<a href="https://github.com/hongsola92">홍솔아</a>｜
           <a href="https://github.com/gambitbro">민병근</a> |
           <a href="https://github.com/MrTwee">이진우</a>)
@@ -53,6 +53,8 @@
             <br> (GPIO 동작) RPi.GPIO
             <br> (물 수위 센서, 토양 수분 센서) spidev
             <br> (쓰레드) threading
+            <br>
+            <br>
         </th>
     </tr>
 </table>
