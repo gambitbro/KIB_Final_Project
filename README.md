@@ -87,7 +87,7 @@
             <br>Data Wrangling
             <br>스마트 팜 구조 조립 및 완성
         <th>
-            <br>스마트 팜에 필요한 Arduino senser 구현 및 데이터 수집
+            <br>Arduino senser 구현 및 데이터 수집
             <br>Arduino와 RaspberryPI 블루투스 연결(or 시리얼 연결) 및 데이터 전송
             <br>Data Wrangling
             <br>PPT, 계획서, 기술서 작성
