@@ -82,18 +82,21 @@
     </tr>
         <th>소스(코딩)</th>
         <th>
-            <br>HW 설계 및 구현
-            <br>화면설계, 전체
-            <br>소스 취합 및 수정
+            <br>RaspberryPI에서 Cloud DB 구현, 데이터 저장 및 관리
+            <br>PPT, 계획서, 기술서 작성
+            <br>Data Wrangling
+            <br>스마트 팜 구조 조립 및 완성
         <th>
-            <br>웹 서버 개발, 
-            <br>SW 설계 및 구현
-            <br>DB 설계 및 구현
-            <br>화면설계, 전체
-            <br>소스 취합 및 수정
+            <br>스마트 팜에 필요한 Arduino senser 구현 및 데이터 수집
+            <br>Arduino와 RaspberryPI 블루투스 연결(or 시리얼 연결) 및 데이터 전송
+            <br>Data Wrangling
+            <br>PPT, 계획서, 기술서 작성
+            <br>스마트 팜 구조 조립 및 완성
         <th>
-            <br>화면설계 <br>템플릿 적용
-            <br>소스 취합 및 수정
+            <br>식물 관찰을 위한 카메라 OpenCV 코드 작성
+            <br>PPT, 계획서, 기술서 작성
+            <br>Data Wrangling
+            <br>스마트 팜 구조 조립 및 완성
         </th>
     </tr>
 </table>
