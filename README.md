@@ -49,7 +49,7 @@
     <tr>
         <th>사용기술</th>
         <th colspan="3">
-            <br> (데이터베이스) SQLite or Google CLoud Database
+            <br> (데이터베이스) SQLite or Google Cloud Database
             <br> (Web) Flask
             <br> (온습도 측정) Adafruit_DHT
             <br> (GPIO 제어) RPi.GPIO
@@ -90,7 +90,6 @@
             <br>Arduino senser 구현 및 데이터 수집
             <br>Arduino와 RaspberryPI 블루투스 연결(or 시리얼 연결) 및 데이터 전송
             <br>Data Wrangling
-            <br>PPT, 계획서, 기술서 작성
             <br>스마트 팜 구조 조립 및 완성
         <th>
             <br>식물 관찰을 위한 카메라 OpenCV 코드 작성
