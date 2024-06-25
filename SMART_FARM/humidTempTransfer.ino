@@ -22,7 +22,6 @@ void loop() {
         return;
     }
     
-    
     Serial1.print("Humidity: ");
     Serial1.print(humid);
     Serial1.print(" %\t");
