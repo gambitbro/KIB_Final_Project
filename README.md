@@ -142,7 +142,9 @@
     ● 스마트팜 IoT 전체적 구조 파악 및 설계 방향 논의
 
 ## 2024-06-26(수)
-    ● Arduino UNO와 RaspberryPi4 => 블루투스 연결하여 신호 왔다갔다 하는지 테스트, UNO보드의 모듈은 cc2541(data sheet 참고), RaspberryPi4에서 connect error, 연결되었다고 나오는 즉시 에러뜨며 끊김 
+    ● Arduino UNO와 RaspberryPi4 => 블루투스 연결하여 신호 왔다갔다 하는지 테스트.
+    ● UNO보드의 모듈은 cc2541(data sheet 참고), RaspberryPi4에서 connect error, 연결되었다고 나오는 즉시 에러뜨며 끊김 -> 블루투스 연결 테스트 실패
+        해결방안 -> 아두이노 메가 보드의 와이파이 모듈 사용이 어떨까(Cloud SQL과 직접 연동)
     ● 스마트팜 외형 1차 제작
 - ![1차 제작](img/KakaoTalk_20240626_173626872.jpg)
 ----------------------------
