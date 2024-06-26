@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string>
-
+using namespace std;
 
 int main(void)
 {
-    std::cout << "hello!" << std::endl;
+    cout << "hello!" << endl;
 
     return 0;
 }
