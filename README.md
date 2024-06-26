@@ -5,6 +5,7 @@
 - 고려대학교 HRD IoT 개발자과정 파이널 프로젝트입니다.
 - [slide(보기 전용)](https://www.canva.com/design/DAGIo3UenlM/_KW2WdmP_S_bjc8OKEcd7A/view?utm_content=DAGIo3UenlM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 - [slide(계획 발표)](https://docs.google.com/presentation/d/1gJG-Qnbx-0N8gWtX3mH1qRT7-PApX_3W-6SjmxGCNGo/edit#slide=id.p)
+- [여기를 클릭하세요](https://google.com)
 -------------------------------
 <br>
 
