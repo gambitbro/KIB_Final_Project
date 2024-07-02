@@ -176,7 +176,7 @@
     ● 회의🤔
     ● 파종한 씨앗이 싹트기 시작.
     ● iptime_iot 와이파이를 아두이노 메가보드와 연결하기 성공. 하지만, 연결 이후에 데이터를 서버로 보내는 과정에서 오류가 생김.
-    ● ![image](https://github.com/gambitbro/KIB_Final_Project/assets/67915790/6a01a5cc-6a84-4f11-91fb-ce70dc624085)
+    ● ![오류오류오류](img/KakaoTalk_20240702_131151332.png)
     ● 아두이노 -> VM인스턴스의 PHP(apache) -> GCD(SQL) 과정에서 PHP파일과 SQL은 정상적으로 연결되어 작동됨을 확인.
         (http://35.232.26.6/insert_data.php) 정상적으로 쿼리가 보내짐을 확인함.
         각 데이터에 NULL값을 허용해놨기 때문에, 아두이노로부터 데이터를 받지 못한 상태로 타임스탬프만 찍혀서 SQL저장됨.
