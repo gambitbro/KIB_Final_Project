@@ -50,8 +50,8 @@
     <tr>
         <th>사용기술</th>
         <th colspan="3">
-            <br> (데이터베이스) SQLite or Google CLoud Database
-            <br> (Web) Flask
+            <br> (데이터베이스) Google CLoud Database
+            <br> (Web) apache, php 
             <br> (온습도 측정) Adafruit_DHT
             <br> (GPIO 제어) RPi.GPIO
             <br> (물 수위 센서, 토양 수분 센서) spidev
