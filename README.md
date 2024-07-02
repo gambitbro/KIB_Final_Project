@@ -179,7 +179,7 @@
     ● 아두이노 -> VM인스턴스의 PHP(apache) -> GCD(SQL) 과정에서 PHP파일과 SQL은 정상적으로 연결되어 작동됨을 확인.
         (http://35.232.26.6/insert_data.php) 정상적으로 쿼리가 보내짐을 확인함.
         각 데이터에 NULL값을 허용해놨기 때문에, 아두이노로부터 데이터를 받지 못한 상태로 타임스탬프만 찍혀서 SQL저장됨.
-    ● SQL 관련 참고: https://bedecked-decision-12c.notion.site/MySQLDB-6c9911989fac446b9f161dc78e224078
+ - [SQL 관련 참고](https://bedecked-decision-12c.notion.site/MySQLDB-6c9911989fac446b9f161dc78e224078)
  - ![오류오류오류](img/KakaoTalk_20240702_131151332.png)
 
 ----------------------------
