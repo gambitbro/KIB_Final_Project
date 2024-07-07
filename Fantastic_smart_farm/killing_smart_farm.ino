@@ -40,20 +40,18 @@ void setup() {
   //시리얼, 블루투스 설정
   Serial.begin(9600);
   Serial1.begin(9600);
-  pinMode(13, OUTPUT);
 
   Wire.begin();
 
   //현재 시간 세팅
-  // Clock.setSecond(00); //초 세팅 
-  // Clock.setMinute(58);  //분 세팅 
-  // Clock.setHour(14);  //Set the hour c
-  // Clock.setDoW(5);    //Set the day of the week
-  // Clock.setDate(9);  //Set the date of the month
-  // Clock.setMonth(11); //Set the month of the year
-  // Clock.setYear(23);  //Set the year 
-	
-  delay(10);
+  // Clock.setSecond(00);
+  // Clock.setMinute(58);
+  // Clock.setHour(14);
+  // Clock.setDoW(5);
+  // Clock.setDate(9);
+  // Clock.setMonth(11);
+  // Clock.setYear(23); 
+  // delay(10);
 
   //온습도 설정
   dht.begin();
@@ -163,15 +161,6 @@ void loop() {
   time1=time2;
   }
 
-  // if(humidity >= 46 || temperature >= 23){
-  //   myServo.write(90);
-  //   digitalWrite(FAN_PIN, 1);
-  //   delay(1000);
-  // } else {
-  //   myServo.write(0);
-  //   digitalWrite(FAN_PIN, 0);
-  //   delay(1000);
-  // }
 
   //액츄에이터 조절(블루투스)
   if (Serial1.available()){
@@ -197,10 +186,17 @@ void loop() {
     } else if (led_con == 'e'){
       myServo.write(0);
     }
+  } else {
+    if(humidity >= 50 || temperature >= 25){
+      myServo.write(90);
+      digitalWrite(FAN_PIN, 1);
+      delay(500);
+    } else {
+      myServo.write(0);
+      digitalWrite(FAN_PIN, 0);
+      delay(500);
+    }
   }
-
-  
-
 }
 
 void ReadDS3231()   //시간 불러오기
